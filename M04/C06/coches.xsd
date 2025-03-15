@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="coches">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="coche" minOccurs="1" maxOccurs="5">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="marca">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="3"></xs:minLength>
+                                        <xs:maxLength value="10"></xs:maxLength>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="modelo" type="xs:string" />
+                            <xs:element name="telefono">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:pattern value="[0-9]{9}"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="puertas">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="3" />
+                                        <xs:maxInclusive value="5" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="colores">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="mate" type="xs:string" />
+                                        <xs:element name="brillo" type="xs:string" />
+                                        <xs:element name="transparente" type="xs:string" />
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="remolque" type="xs:string" minOccurs="0" />
+                            <xs:element name="estado">
+                                <xs:complexType>
+                                    <xs:choice>
+                                        <xs:element name="ocasion" type="xs:string" />
+                                        <xs:element name="nuevo" type="xs:string" />
+                                        <xs:element name="viejo" type="xs:string" />
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pago">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Fraccionado"/>
+                                        <xs:enumeration value="Contado"/>
+                                        <xs:enumeration value="Renting"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="matricula">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[0-9][0-9][0-9][0-9][A-Z][A-Z][A-Z]"></xs:pattern>  
+                                </xs:restriction>    
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

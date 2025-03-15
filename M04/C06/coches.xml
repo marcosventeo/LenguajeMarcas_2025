@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="coches.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<!-- <?xml-model href="coches.dtd" type="application/xml-dtd"?> -->
+<coches>
+    <coche matricula="1111MMM">
+        <marca>Seat</marca>
+        <modelo>Formentor</modelo>
+        <telefono>341234567</telefono>
+        <puertas>3</puertas>
+        <colores>
+            <mate>Rojo</mate>
+            <brillo>Negro</brillo>
+            <transparente>Blanco</transparente>
+        </colores>
+        <remolque>Modelo XXX</remolque>
+        <estado>
+            <nuevo>2025</nuevo>
+        </estado>
+        <pago>Contado</pago>
+    </coche>
+
+    <coche matricula="2222LLL">
+        <marca>Kia</marca>
+        <modelo>Ceed</modelo>
+        <telefono>123456789</telefono>
+        <puertas>3</puertas>
+        <colores>
+            <transparente>aaa</transparente>
+            <brillo>bbb</brillo>
+            <mate>cccc</mate>
+        </colores>
+        <estado>
+            <ocasion>2000</ocasion>
+        </estado>
+        <pago>Fraccionado</pago>
+    </coche>
+
+    <coche matricula="5555JJJ">
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <telefono>123456789</telefono>
+        <puertas>3</puertas>
+        <colores>
+            <brillo>cccc</brillo>
+            <transparente>AAA</transparente>
+            <mate>dddd</mate>
+        </colores>
+        <estado>
+            <viejo>2025</viejo>
+        </estado>
+        <pago>Renting</pago>
+    </coche>
+</coches>

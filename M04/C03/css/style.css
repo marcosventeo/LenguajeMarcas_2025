@@ -1,0 +1,59 @@
+/* MI  HOJA DE ESTILO */
+
+/* 
+    SELECTOR ETIQUETA
+*/
+
+h3{
+   background-color: rgb(14, 119, 68);
+   color: white;
+   text-transform: uppercase;
+}
+
+h1{
+    color: #e52682;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+/* Selector descendente */
+li a{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Selector de hijo */
+p > strong{
+
+    background-color: chocolate;
+}
+
+/*   ADYACENTES */
+h3+h4{
+    color: pink;
+    background-color: cornflowerblue;
+}
+
+/* ATRIBUTO */
+a[href="https://www.google.es"]{
+    background-color: brown;
+}
+
+/* CLASE 
+    se pueden repetir
+*/
+.importante{
+    background-color: chartreuse;
+}
+
+/* ID 
+    uno por web
+*/
+ #hola{
+    background-color: crimson;
+ }
+
+

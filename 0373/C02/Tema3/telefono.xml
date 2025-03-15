@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<telefonos>
+    <telefono>
+        <modelo>XXX</modelo>
+        <numero>123465</numero>
+        <foto>telefono.jpg</foto>
+        <estado>Bueno</estado>
+        <sistema>IOS</sistema>
+        <version>3</version>
+        <comentario>Estado correcto</comentario>
+    </telefono>
+
+
+
+</telefonos>

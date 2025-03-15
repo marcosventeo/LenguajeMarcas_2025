@@ -1,0 +1,23 @@
+<!--    
+
+    DTD o XSD (SCHEMAS)
+
+-->
+
+<colegio>
+    <alumnos>
+        <alumno expediente="111A" curso="A">
+            <nombre>Marc</nombre>  <!-- ELEMENTO -->
+            <nota>7</nota>
+        </alumno>
+        <alumno expediente="222B" curso="B">
+            <nombre>Anna</nombre>
+            <nota>9</nota>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor>
+            <nombre>Pepe</nombre>
+        </profesor>
+    </profesores>
+</colegio>

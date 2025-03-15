@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="coches.dtd" type="application/xml-dtd"?>
+
+<!-- INDICAR NUESTRO -->
+
+    <!-- 
+        + - 1 a infinito
+        * - 0 a infinito
+        ? - opcional
+        | - entre uno u otro
+     -->
+
+<!-- <!DOCTYPE coches [
+    <!ELEMENT coches (coche+)>
+    <!ELEMENT coche (marca,modelo,puertas,color,remolque?,(nuevo|ocasion))>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT puertas (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT remolque (#PCDATA)>
+    <!ELEMENT nuevo (#PCDATA)>
+    <!ELEMENT ocasion (#PCDATA)>
+    <!ATTLIST coche matricula CDATA #REQUIRED>
+    <!ATTLIST coche poblacion CDATA #IMPLIED>
+]> -->
+
+<coches>
+    <coche matricula="1111MMM" poblacion="barcelona">
+        <marca>Seat</marca>
+        <modelo>Formentor</modelo>
+        <puertas>3</puertas>
+        <color>Rojo</color>
+        <remolque>Modelo XXX</remolque>
+        <nuevo>2025</nuevo>
+    </coche>
+    <coche matricula="2222LLL">
+        <marca>Kia</marca>
+        <modelo>Ceed</modelo>
+        <puertas>5</puertas>
+        <color>Blanco</color>
+        <ocasion>2000</ocasion>
+    </coche>
+    <coche matricula="5555JJJ">
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <puertas>3</puertas>
+        <color>Negro</color>
+         <nuevo>2025</nuevo>
+    </coche>
+</coches>

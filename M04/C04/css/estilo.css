@@ -1,0 +1,102 @@
+
+article{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+section{
+    border: 1px solid black;
+    height: 100px;
+    background-color: aquamarine;
+    /* width: 20%; */
+    /* display: inline-block; */
+
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 900;
+    color:brown;
+    
+}
+img{
+    width: 150px;
+    float: right;
+}
+
+img:hover{
+    width: 90px;
+
+
+}
+
+/* #uno{
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+#tres{
+    position: absolute;
+    background-color: brown;
+    top: 10px;
+    left: 550px;
+}
+
+#cuatro{
+    position: fixed;
+    bottom: 0px;
+
+
+}
+
+#cinco{
+    float: right;
+} */
+
+
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+    width: 120px;
+    background-color: rgb(81, 116, 82);
+}
+
+ul li{
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(138, 167, 108);
+    border: 1px solid rgb(81, 116, 82);
+    transition: margin-left 1s, padding-left 1s;
+}
+
+ul li:hover{
+    margin-left: 10px;
+    padding-left:20px;
+}
+
+ul li ul{
+    background-color: rgb(226, 162, 43);
+    display: none;
+    
+}
+
+ul li ul li{
+    background-color: rgb(167, 140, 108);
+    border: 1px solid rgb(116, 96, 81);
+}
+
+ul li#servicios ul{
+    position: absolute;
+    left:100px;
+}
+
+ul li#servicios:hover ul{
+    display: block;
+
+}

@@ -1,0 +1,34 @@
+<!-- 
+    1 Etiqueta cierre    
+    casesensitive - Distingue minúsculas i mayúsculas
+    El nombre de las etiquetas lo inventáis vosotros
+    Pueden haber atributos, no abusar
+
+    Definir una gramática ... DTD o XSD (SCHEMAS)
+-->
+<vehiculos>
+    <coches id="111">
+        <coche id="12000" matricula="1111LLL">
+            <marca>SEAT</marca>
+            <modelo>IBIZA</modelo>
+            <puertas>3</puertas>
+            <color>Rojo</color>
+        </coche>
+        <coche id="12001" matricula="2222MMM">
+            <marca>KIA</marca>
+            <modelo>CEED</modelo>
+            <puertas>5</puertas>
+            <color>Blanco</color>
+        </coche>
+    </coches>
+    <motos>
+        <moto>
+            <marca>Yamaha</marca>
+            <tipo>R</tipo>
+        </moto>
+        <moto>
+            <marca>Kawaki</marca>
+            <tipo>Z</tipo>
+        </moto>
+    </motos>
+</vehiculos>

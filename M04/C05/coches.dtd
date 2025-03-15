@@ -1,0 +1,11 @@
+<!ELEMENT coches (coche+)>
+<!ELEMENT coche (marca,modelo,puertas,color,remolque?,(nuevo|ocasion))>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT puertas (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT remolque (#PCDATA)>
+<!ELEMENT nuevo (#PCDATA)>
+<!ELEMENT ocasion (#PCDATA)>
+<!ATTLIST coche matricula CDATA #REQUIRED>
+<!ATTLIST coche poblacion CDATA #IMPLIED>

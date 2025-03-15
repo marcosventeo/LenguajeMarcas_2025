@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="coches.xsl" type="text/xsl"?>
+<coches>
+    <coche matricula="1111LLL">
+        <marca>SEAT</marca>
+        <modelo>Ibiza</modelo>
+        <puertas>5</puertas>
+        <color>Rojo</color>
+        <foto>foto1.jpeg</foto>
+        <estado>Nuevo</estado>
+        <web>https://www.seat.es</web>
+    </coche>
+    
+    <coche matricula="2222MMM">
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <puertas>5</puertas>
+        <color>Azul</color>
+        <foto>foto2.jpeg</foto>
+        <estado>Usado</estado>
+        <web>https://www.seat.es</web>
+
+    </coche>
+    
+    <coche matricula="3333NNN">
+        <marca>BMW</marca>
+        <modelo>Serie 3</modelo>
+        <puertas>4</puertas>
+        <color>Negro</color>
+        <foto>foto3.jpeg</foto>
+        <estado>Seminuevo</estado>
+        <web>https://www.seat.es</web>
+
+    </coche>
+    
+    <coche matricula="4444PPP">
+        <marca>Volkswagen</marca>
+        <modelo>Golf</modelo>
+        <puertas>3</puertas>
+        <color>Blanco</color>
+        <foto>foto4.jpeg</foto>
+        <estado>Usado</estado>
+    </coche>
+    
+    <coche matricula="5555QQQ">
+        <marca>Tesla</marca>
+        <modelo>Model 3</modelo>
+        <puertas>5</puertas>
+        <color>Gris</color>
+        <foto>foto5.jpeg</foto>
+        <estado>Nuevo</estado>
+    </coche>
+</coches>

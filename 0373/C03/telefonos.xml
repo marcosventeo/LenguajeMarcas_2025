@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="telefono.dtd" type="application/xml-dtd"?> -->
+<?xml-model href="telefono.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<!-- <!DOCTYPE telefonos [
+    <!ELEMENT telefonos (telefono+)>
+    <!ELEMENT telefono (modelo,numero_serie,foto,estado,sistema_operativo,version,comentario)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT numero_serie (#PCDATA)>
+    <!ELEMENT foto (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT sistema_operativo (#PCDATA)>
+    <!ELEMENT version (#PCDATA)>
+    <!ELEMENT comentario (#PCDATA)>
+    <!ELEMENT texto (#PCDATA)>
+]> -->
+
+<telefonos>
+    <telefono>
+        <modelo>Galaxy S21</modelo>
+        <numero_serie>W-12-AH-0001</numero_serie>
+        <foto>galaxy.jpg</foto>
+        <estado>Nuevo</estado>
+        <sistema_operativo>Android</sistema_operativo>
+        <version>12</version>
+        <comentario>Teléfono de gama alta.</comentario>
+    </telefono>
+    <telefono>
+        <modelo>iPhone 13</modelo>
+        <numero_serie>W-12-AH-0002</numero_serie>
+        <foto>iphone13.jpg</foto>
+        <estado>Bueno</estado>
+        <sistema_operativo>iOS</sistema_operativo>
+        <version>15</version>
+        <comentario>Pantalla OLED, buena duración de batería.</comentario>
+    </telefono>
+    <telefono>
+        <modelo>Xiaomi Mi</modelo>
+        <numero_serie>W-12-AH-0003</numero_serie>
+        <foto>xiaomi_mi11.jpg</foto>
+        <estado>Malo</estado>
+        <sistema_operativo>Android</sistema_operativo>
+        <version>11</version>
+        <comentario>Pantalla dañada, necesita reparación.</comentario>
+    </telefono>
+</telefonos>

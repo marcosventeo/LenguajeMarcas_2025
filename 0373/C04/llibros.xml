@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="libros.xsl" type="text/xsl"?>
+<catalogo>
+    <libro>
+        <titulo>Libro uno</titulo>
+        <autor>autor uno</autor>
+        <foto>libro1.jpg</foto>
+        <url>https://amazon.com</url>
+    </libro>
+    <libro>
+        <titulo>Libro dos</titulo>
+        <autor>autor dos</autor>
+        <foto>libro2.jpg</foto>
+        <url>https://amazon.com</url>
+    </libro>
+    <libro>
+        <titulo>Libro tres</titulo>
+        <autor>autor tres</autor>
+        <foto>libro3.jpg</foto>
+        <url>https://amazon.com</url>
+    </libro>
+</catalogo>

@@ -1,0 +1,31 @@
+table{
+    border: 1px solid black;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(254, 176, 97);
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid rgb(87, 87, 87);
+    padding: 5px;
+}
+
+.nuevo{
+    background-color: rgb(85, 85, 253);
+}
+
+.usado{
+    background-color: rgb(253, 88, 85);
+}
+
+.seminuevo{
+    background-color: rgb(84, 241, 171);
+}
+
+img{
+    width: 200px;
+}

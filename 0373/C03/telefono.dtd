@@ -1,0 +1,12 @@
+<!ELEMENT telefonos (telefono+)>
+    <!ELEMENT telefono (modelo,numero_serie,foto?,estado,sistema_operativo,version*,(comentario|texto))>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT numero_serie (#PCDATA)>
+    <!ELEMENT foto (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT sistema_operativo (#PCDATA)>
+    <!ELEMENT version (#PCDATA)>
+    <!ELEMENT comentario (#PCDATA)>
+    <!ELEMENT texto (#PCDATA)>
+
+    <!ATTLIST telefono id CDATA #IMPLIED>
