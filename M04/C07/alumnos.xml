@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="alumnos.xsl" type="text/xsl"?>
+<alumnos>
+    <alumno estado="activo">
+        <nombre>Marc</nombre>
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <expediente>L0001A</expediente>
+        <nota>3</nota>
+    </alumno>
+    <alumno estado="activo">
+        <nombre>Juan</nombre>
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <expediente>L0002A</expediente>
+        <nota>5</nota>
+    </alumno>
+    <alumno estado="activo">
+        <nombre>Ana</nombre>
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <expediente>L0003A</expediente>
+        <nota>9</nota>
+    </alumno>
+    <alumno estado="ocupado">
+        <nombre>Lidia</nombre>
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <expediente>L0004A</expediente>
+        <nota>7</nota>
+    </alumno>
+
+</alumnos>

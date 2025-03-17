@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="marvel.xsl" type="text/xsl"?>
+<marvel>
+    <superheroe>
+        <nombre>Spider-Man</nombre>
+        <poder>Sentido arácnido, trepar paredes, fuerza mejorada</poder>
+        <foto>https://cdn.marvel.com/content/1x/005smp_ons_cut_mob_01_6.jpg</foto>
+        <url>https://www.marvel.com/characters/spider-man-peter-parker</url>
+    </superheroe>
+    <superheroe>
+        <nombre>Iron Man</nombre>
+        <poder>Armadura avanzada, inteligencia superior</poder>
+        <foto>https://cdn.marvel.com/content/1x/002irm_ons_cut_dsk_01_1.jpg</foto>
+        <url>https://www.marvel.com/characters/iron-man-tony-stark</url>
+    </superheroe>
+    <superheroe>
+        <nombre>Captain America</nombre>
+        <poder>Super fuerza, resistencia mejorada, escudo indestructible</poder>
+        <foto>https://cdn.marvel.com/content/1x/003cap_ons_cut_mob_01_1.jpg</foto>
+        <url>https://www.marvel.com/characters/captain-america-steve-rogers</url>
+    </superheroe>
+    <superheroe>
+        <nombre>Thor</nombre>
+        <poder>Dios del trueno, Mjolnir, inmortalidad</poder>
+        <foto>https://cdn.marvel.com/content/1x/004tho_ons_cut_mob_01_3.jpg</foto>
+        <url>https://www.marvel.com/characters/thor-thor-odinson</url>
+    </superheroe>
+    <superheroe>
+        <nombre>Black Panther</nombre>
+        <poder>Agilidad, fuerza mejorada, traje de vibranium</poder>
+        <foto>https://cdn.marvel.com/content/1x/007blp_ons_cut_mob_01_2.jpg</foto>
+        <url>https://www.marvel.com/characters/black-panther-t-challa</url>
+    </superheroe>
+</marvel>
