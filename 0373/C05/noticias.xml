@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- 
+    Etiqueta raiz
+    Canal - Contiene información del feed
+    Item - cada una de las noticias o actualizaciones
+
+    Etiquetas importantes:
+     title - nombre del canal o del item (noticia)
+     link - Enlace de la web o de la noticia
+     description - Breve resumen del canal o de la noticia
+     pubDate - Fecha de la publicación (opcional)
+     author - Autor de la noticia (opcional)
+-->
+
 <rss version="2.0">
     <!-- INFORMACIÓN DEL CANAL -->
     <channel>
