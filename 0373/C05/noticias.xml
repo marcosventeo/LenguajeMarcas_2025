@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+    <!-- INFORMACIÓN DEL CANAL -->
+    <channel>
+        <title>Noticias de tecnología para alumnos de ASIX</title>
+        <link>https://linkiafp.es</link>
+        <descripcion>Últimas noticias sober novedades y recursos para alumnos de ASIX</descripcion>
+
+        <!-- LISTADO DE NOTICIAS -->
+        <item>
+            <title>Novedades en Linux</title>
+            <link>https://linkiafp.es/linux</link>
+            <descripcion>Novedades en el Kernel de Linux, ahora permite usar más memoria del sistema</descripcion>
+            <pubDate>Jueves, 20 de Marzo de 2025 a las 10:00</pubDate>
+            <author>Marc Venteo</author>
+        </item>
+        <item>
+            <title>Novedades en Windows</title>
+            <link>https://linkiafp.es/windows</link>
+            <descripcion>Novedades en el escritorio de Windows, ahora permite realizar multiples
+                copias de los ficheros</descripcion>
+            <pubDate>Jueves, 20 de Marzo de 2025 a las 11:00</pubDate>
+            <author>Marc Venteo</author>
+        </item>
+    </channel>
+</rss>
